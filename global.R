@@ -1,0 +1,16 @@
+library(shiny)
+library(shinydashboard)
+library(shinyWidgets)
+library(dplyr)
+library(ggplot2)
+library(plotly)
+library(DT)
+library(sqldf)
+library(reshape2)
+library(rsconnect)
+library(devtools)
+library(shinythemes)
+
+
+source('Scripts/tratamiento_datos.R')
+print(getwd())
